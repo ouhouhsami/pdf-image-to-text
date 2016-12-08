@@ -6,11 +6,14 @@ A utility to convert a PDF made of images to text.
 
 - ImageMagick (the library uses `convert` utility coming from ImageMagick lib)
 - an OCR (tesseract-ocr >= 3.01 with *french* lang)
+- Python 3
 
 ## Install
 
+(pip 9.0.1 works)
+
 ```
-pip install pdf-image-to-text
+pip install pdf-image-to-text --process-dependency-links
 ```
 
 ## Usage
